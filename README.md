@@ -1,5 +1,5 @@
 # python-distribution
-Distribution package for python
+Algebra calculation of distribution for python
 
 ## sample 
 ```python
