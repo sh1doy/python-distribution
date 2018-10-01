@@ -6,6 +6,9 @@ class NormalDist:
         self.mu = mu
         self.sigma = sigma
 
+    def __str__(self):
+        return "NormalDist (mu = {}, sigma^2 = {})".format(self.mu, self.sigma)
+
     def __add__(self, dist):
         return NormalDist(self.mu + dist.mu, self.sigma + dist.sigma)
 
